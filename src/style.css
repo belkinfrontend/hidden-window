@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+
+
+    background: -webkit-linear-gradient(90deg, rgb(212, 237, 22), rgb(90, 20, 69));
+    background: linear-gradient(90deg, rgb(212, 237, 22), rgb(90, 20, 69));
+
+
+    background-size: cover;
+}
+h1 {
+    margin-bottom: 90px;
+}
+
+h1, h5 {
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    text-shadow: #000 2px 2px 5px;
+    word-spacing: 15px;
+}
+
+
+
+#exampleModal {
+    display: none;
+}
+
+.symbols {
+    letter-spacing: 10px;
+    font-style: italic;
+}
+
+.noselect {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
